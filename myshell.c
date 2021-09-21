@@ -1,7 +1,5 @@
-#include <stdio.h> //fflush()
-
-
-
+#include <stdio.h>
+#include "myshell.h"
 
 
 void init_shell()
@@ -13,5 +11,7 @@ void init_shell()
 
 int main() {
     init_shell();
+
+
     return 0;
 }
